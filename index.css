@@ -1,6 +1,6 @@
 
 #top-navbar {
-    background-color: rgb(85, 145, 113);
+    background-color: #C54245;
     animation: fade-down 1000ms forwards;
     opacity: 0;
 }
@@ -63,9 +63,9 @@ p {
 }
 
 .top-pane {
-    background: url(./images/desktop.jpg) center fixed;
+    background: url(./images/Xmas.jpeg) center fixed;
     background-size: cover;
-    height: calc(100vh - 64px);
+    height: calc(100vh + 20px);
 }
 
 img.resize {
@@ -74,7 +74,7 @@ img.resize {
 }
 
 .small-pane {
-    background: url(./images/desk.jpg) center fixed;
+    background: url(./images/christmasleaves.jpg) center fixed;
     background-size: cover;
 }
 
@@ -86,6 +86,8 @@ img.resize {
     animation: from-right 600ms forwards;
     opacity: 0;
     animation-delay: 600ms;
+    background-color: rgb(255, 247, 247);
+    border-radius: 20px;
 }
 
 @keyframes from-right {
@@ -104,7 +106,8 @@ img.resize {
     opacity: 0;
     animation-delay: 400ms;
     justify-content: center;
-   max-width: 230%;
+    align-items: center;
+   width: 230%;
    height: auto;
 }
 
@@ -143,6 +146,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
+    justify-content: center;
     margin-left: 0%;
     margin-bottom: 5%;
     max-width: 100%;
